@@ -8,5 +8,15 @@ namespace BookStore.Controllers
         {
             return View();
         }
+
+        public IActionResult GetBook(int id)
+        {
+            return View();
+        }
+
+        public IActionResult SearchBooks(string title, string author)
+        {
+            return View();
+        }
     }
 }
